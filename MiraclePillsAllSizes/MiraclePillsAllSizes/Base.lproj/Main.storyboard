@@ -155,10 +155,15 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEs-uc-KZk">
                                 <state key="normal" title="Button" image="buyNowBtn"/>
+                                <connections>
+                                    <action selector="buynowBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e5J-HG-wk3"/>
+                                </connections>
                             </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="successIndicator" translatesAutoresizingMaskIntoConstraints="NO" id="tB1-uX-okc"/>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="tB1-uX-okc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2fS-2J-bT2"/>
                             <constraint firstItem="bxD-aE-iup" firstAttribute="trailing" secondItem="1R2-kf-WSA" secondAttribute="trailing" id="3Fj-0L-uyO"/>
                             <constraint firstItem="2gO-GX-fZh" firstAttribute="top" secondItem="Ajc-2w-4ZU" secondAttribute="bottom" constant="4" id="5yT-he-Cxx"/>
                             <constraint firstItem="iuC-rB-ylE" firstAttribute="top" secondItem="PuD-sN-bs8" secondAttribute="bottom" constant="4" id="6VA-1o-CwM"/>
@@ -197,6 +202,7 @@
                             <constraint firstItem="bxD-aE-iup" firstAttribute="top" secondItem="1R2-kf-WSA" secondAttribute="bottom" constant="4" id="jeq-xX-SrE"/>
                             <constraint firstItem="xrj-0p-l4S" firstAttribute="trailing" secondItem="86c-Qd-mmB" secondAttribute="trailing" id="jhF-f3-lz5"/>
                             <constraint firstItem="Ajc-2w-4ZU" firstAttribute="leading" secondItem="zVA-0I-dQL" secondAttribute="leading" id="jlo-D2-6AP"/>
+                            <constraint firstItem="tB1-uX-okc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mHP-UI-Smc"/>
                             <constraint firstItem="HLN-fZ-YJf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="mfa-Sr-iGS"/>
                             <constraint firstItem="DPb-Qd-dal" firstAttribute="top" secondItem="eqZ-Ju-vkL" secondAttribute="bottom" constant="5" id="nOk-oj-sQr"/>
                             <constraint firstItem="zSW-dJ-8Cf" firstAttribute="top" secondItem="EMK-aw-O92" secondAttribute="bottom" constant="4" id="nx1-jc-BDL"/>
@@ -211,12 +217,24 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="addressLabel" destination="xrj-0p-l4S" id="2sP-Yd-ROx"/>
+                        <outlet property="addressText" destination="EMK-aw-O92" id="1uU-B4-ftv"/>
+                        <outlet property="buynowImage" destination="SEs-uc-KZk" id="naV-8X-rkG"/>
+                        <outlet property="cityLabel" destination="zSW-dJ-8Cf" id="V2X-up-eRA"/>
+                        <outlet property="cityText" destination="stX-ma-OjU" id="cB8-uJ-gdT"/>
                         <outlet property="countryLabel" destination="sQe-IP-mMh" id="HHd-5E-54g"/>
                         <outlet property="countryText" destination="3i8-o3-x0f" id="FBk-wn-9Sg"/>
+                        <outlet property="nameLabel" destination="bxD-aE-iup" id="tzw-us-zWX"/>
+                        <outlet property="nameText" destination="86c-Qd-mmB" id="krK-U4-XWO"/>
+                        <outlet property="pillImage" destination="HLN-fZ-YJf" id="3eS-yt-B4s"/>
+                        <outlet property="pillLabel" destination="eqZ-Ju-vkL" id="Jit-A0-WED"/>
                         <outlet property="pinLabel" destination="PuD-sN-bs8" id="gNJ-xV-sz8"/>
                         <outlet property="pinText" destination="iuC-rB-ylE" id="len-G1-aUd"/>
+                        <outlet property="rupeeLabel" destination="DPb-Qd-dal" id="kXx-o2-0RO"/>
+                        <outlet property="stateLabel" destination="zVA-0I-dQL" id="kf8-D3-mZV"/>
                         <outlet property="statePicker" destination="2gO-GX-fZh" id="14o-5A-vIb"/>
                         <outlet property="statePickerBtn" destination="Ajc-2w-4ZU" id="g6A-4v-c9h"/>
+                        <outlet property="successImage" destination="tB1-uX-okc" id="QFX-na-e8C"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -227,5 +245,6 @@
     <resources>
         <image name="buyNowBtn" width="225" height="45"/>
         <image name="miraclePillEmoji" width="90" height="90"/>
+        <image name="successIndicator" width="180" height="180"/>
     </resources>
 </document>
