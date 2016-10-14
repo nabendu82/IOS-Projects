@@ -31,21 +31,24 @@
                                     <constraint firstAttribute="height" constant="189" id="RqO-Bm-Lu8"/>
                                 </constraints>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCS-V2-jbI"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCS-V2-jbI">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="NZ5-FJ-Qcz"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="btm-vm-f6V" secondAttribute="trailing" id="2sw-fi-lIH"/>
                             <constraint firstItem="HP8-c9-KH0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CYJ-FG-gjD"/>
                             <constraint firstItem="7k3-pg-29A" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="EoV-ky-FLj"/>
-                            <constraint firstItem="vCS-V2-jbI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ful-y3-2ey"/>
                             <constraint firstItem="btm-vm-f6V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Hyq-Ht-fgs"/>
                             <constraint firstItem="vCS-V2-jbI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Mjw-uD-6Id"/>
+                            <constraint firstItem="vCS-V2-jbI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wba-z0-Sbc"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HP8-c9-KH0" secondAttribute="bottom" id="a6z-CJ-OQl"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="btm-vm-f6V" secondAttribute="bottom" id="d1z-M3-djS"/>
                             <constraint firstItem="7k3-pg-29A" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="dcS-aq-nmk"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vCS-V2-jbI" secondAttribute="bottom" id="kuI-EJ-r5v"/>
-                            <constraint firstAttribute="trailing" secondItem="vCS-V2-jbI" secondAttribute="trailing" id="kw5-AY-Zs6"/>
                             <constraint firstItem="HP8-c9-KH0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="lpe-ZS-d5a"/>
                             <constraint firstAttribute="trailing" secondItem="HP8-c9-KH0" secondAttribute="trailing" id="wef-8z-gyD"/>
                         </constraints>
