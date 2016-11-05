@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DreamLister.xcscheme</key>
+		<key>StickerPackExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>E37654741DBCCF2700EBD672</key>
+		<key>E3FC08831DCE356500062ECF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
