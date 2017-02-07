@@ -293,6 +293,7 @@
 				TargetAttributes = {
 					E3CAF6561DD444F900AD0281 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8K4S9QVHTG;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
@@ -571,6 +572,7 @@
 			baseConfigurationReference = B9A431FFE2D0D8678193AB12 /* Pods-Pokedex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8K4S9QVHTG;
 				INFOPLIST_FILE = Pokedex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShikhaCorps.Pokedex;
@@ -584,6 +586,7 @@
 			baseConfigurationReference = 74246D209299C73917D7739F /* Pods-Pokedex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8K4S9QVHTG;
 				INFOPLIST_FILE = Pokedex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShikhaCorps.Pokedex;
