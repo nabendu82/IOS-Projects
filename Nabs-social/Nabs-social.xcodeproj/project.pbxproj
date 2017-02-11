@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		852ED5614D0BE63EDA953F7F /* Pods_Nabs_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2D5E9B4490D924EE3414FA /* Pods_Nabs_social.framework */; };
+		E37EA3EF1E4B8B1600768550 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37EA3EE1E4B8B1600768550 /* CircleView.swift */; };
+		E37EA3F11E4C5CB900768550 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37EA3F01E4C5CB900768550 /* PostCell.swift */; };
+		E37EA3F41E4C71D900768550 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37EA3F31E4C71D900768550 /* DataService.swift */; };
+		E37EA3F61E4C862A00768550 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37EA3F51E4C862900768550 /* Post.swift */; };
+		E3AA75081E498D90000A75D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA75071E498D90000A75D6 /* AppDelegate.swift */; };
+		E3AA750A1E498D91000A75D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA75091E498D91000A75D6 /* ViewController.swift */; };
+		E3AA750D1E498D91000A75D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AA750B1E498D91000A75D6 /* Main.storyboard */; };
+		E3AA750F1E498D91000A75D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AA750E1E498D91000A75D6 /* Assets.xcassets */; };
+		E3AA75121E498D91000A75D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AA75101E498D91000A75D6 /* LaunchScreen.storyboard */; };
+		E3AA751A1E498E73000A75D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3AA75191E498E73000A75D6 /* GoogleService-Info.plist */; };
+		E3AA751F1E49DB70000A75D6 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA751E1E49DB70000A75D6 /* FancyView.swift */; };
+		E3AA75221E49DD04000A75D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA75211E49DD04000A75D6 /* Constants.swift */; };
+		E3AA75241E49E022000A75D6 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA75231E49E022000A75D6 /* RoundBtn.swift */; };
+		E3AA75261E49E1D7000A75D6 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA75251E49E1D7000A75D6 /* FancyField.swift */; };
+		E3AA75281E49E33D000A75D6 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA75271E49E33D000A75D6 /* FancyBtn.swift */; };
+		E3AA752B1E4A3B94000A75D6 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA752A1E4A3B94000A75D6 /* FeedVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C2D5E9B4490D924EE3414FA /* Pods_Nabs_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nabs_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3958DCF2384F6B7EA850CB8 /* Pods-Nabs-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nabs-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nabs-social/Pods-Nabs-social.debug.xcconfig"; sourceTree = "<group>"; };
+		E37EA3EE1E4B8B1600768550 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		E37EA3F01E4C5CB900768550 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		E37EA3F31E4C71D900768550 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		E37EA3F51E4C862900768550 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		E3AA75041E498D90000A75D6 /* Nabs-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nabs-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3AA75071E498D90000A75D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3AA75091E498D91000A75D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3AA750C1E498D91000A75D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3AA750E1E498D91000A75D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3AA75111E498D91000A75D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3AA75131E498D91000A75D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3AA75191E498E73000A75D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3AA751E1E49DB70000A75D6 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		E3AA75211E49DD04000A75D6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E3AA75231E49E022000A75D6 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		E3AA75251E49E1D7000A75D6 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		E3AA75271E49E33D000A75D6 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		E3AA75291E4A0579000A75D6 /* Nabs-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nabs-social.entitlements"; sourceTree = "<group>"; };
+		E3AA752A1E4A3B94000A75D6 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		F939A347704DD06590A2166E /* Pods-Nabs-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nabs-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nabs-social/Pods-Nabs-social.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3AA75011E498D90000A75D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852ED5614D0BE63EDA953F7F /* Pods_Nabs_social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184988DAFAA55933DA591A9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3958DCF2384F6B7EA850CB8 /* Pods-Nabs-social.debug.xcconfig */,
+				F939A347704DD06590A2166E /* Pods-Nabs-social.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5AC55F19F68C01942AE9FEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C2D5E9B4490D924EE3414FA /* Pods_Nabs_social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E37EA3F21E4C716200768550 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E37EA3F31E4C71D900768550 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		E3AA74FB1E498D90000A75D6 = {
+			isa = PBXGroup;
+			children = (
+				E3AA75061E498D90000A75D6 /* Nabs-social */,
+				E3AA75051E498D90000A75D6 /* Products */,
+				184988DAFAA55933DA591A9A /* Pods */,
+				B5AC55F19F68C01942AE9FEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E3AA75051E498D90000A75D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3AA75041E498D90000A75D6 /* Nabs-social.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3AA75061E498D90000A75D6 /* Nabs-social */ = {
+			isa = PBXGroup;
+			children = (
+				E37EA3F21E4C716200768550 /* Services */,
+				E3AA75291E4A0579000A75D6 /* Nabs-social.entitlements */,
+				E3AA75201E49DCE0000A75D6 /* Util */,
+				E3AA751D1E499101000A75D6 /* Controller */,
+				E3AA751C1E4990FA000A75D6 /* View */,
+				E3AA751B1E4990F2000A75D6 /* Model */,
+				E3AA75071E498D90000A75D6 /* AppDelegate.swift */,
+				E3AA750B1E498D91000A75D6 /* Main.storyboard */,
+				E3AA750E1E498D91000A75D6 /* Assets.xcassets */,
+				E3AA75101E498D91000A75D6 /* LaunchScreen.storyboard */,
+				E3AA75131E498D91000A75D6 /* Info.plist */,
+				E3AA75191E498E73000A75D6 /* GoogleService-Info.plist */,
+			);
+			path = "Nabs-social";
+			sourceTree = "<group>";
+		};
+		E3AA751B1E4990F2000A75D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E37EA3F51E4C862900768550 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E3AA751C1E4990FA000A75D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3AA751E1E49DB70000A75D6 /* FancyView.swift */,
+				E3AA75231E49E022000A75D6 /* RoundBtn.swift */,
+				E3AA75251E49E1D7000A75D6 /* FancyField.swift */,
+				E3AA75271E49E33D000A75D6 /* FancyBtn.swift */,
+				E37EA3EE1E4B8B1600768550 /* CircleView.swift */,
+				E37EA3F01E4C5CB900768550 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E3AA751D1E499101000A75D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3AA75091E498D91000A75D6 /* ViewController.swift */,
+				E3AA752A1E4A3B94000A75D6 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E3AA75201E49DCE0000A75D6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E3AA75211E49DD04000A75D6 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3AA75031E498D90000A75D6 /* Nabs-social */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3AA75161E498D91000A75D6 /* Build configuration list for PBXNativeTarget "Nabs-social" */;
+			buildPhases = (
+				9E7C972A2AA1D49C067F2D29 /* [CP] Check Pods Manifest.lock */,
+				E3AA75001E498D90000A75D6 /* Sources */,
+				E3AA75011E498D90000A75D6 /* Frameworks */,
+				E3AA75021E498D90000A75D6 /* Resources */,
+				189FCD8723B7DC1C71629494 /* [CP] Embed Pods Frameworks */,
+				BF1D943692B8D01195A1BBDD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nabs-social";
+			productName = "Nabs-social";
+			productReference = E3AA75041E498D90000A75D6 /* Nabs-social.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3AA74FC1E498D90000A75D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nabendu Biswas";
+				TargetAttributes = {
+					E3AA75031E498D90000A75D6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8K4S9QVHTG;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E3AA74FF1E498D90000A75D6 /* Build configuration list for PBXProject "Nabs-social" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3AA74FB1E498D90000A75D6;
+			productRefGroup = E3AA75051E498D90000A75D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3AA75031E498D90000A75D6 /* Nabs-social */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3AA75021E498D90000A75D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3AA75121E498D91000A75D6 /* LaunchScreen.storyboard in Resources */,
+				E3AA751A1E498E73000A75D6 /* GoogleService-Info.plist in Resources */,
+				E3AA750F1E498D91000A75D6 /* Assets.xcassets in Resources */,
+				E3AA750D1E498D91000A75D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		189FCD8723B7DC1C71629494 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nabs-social/Pods-Nabs-social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E7C972A2AA1D49C067F2D29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF1D943692B8D01195A1BBDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nabs-social/Pods-Nabs-social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3AA75001E498D90000A75D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37EA3EF1E4B8B1600768550 /* CircleView.swift in Sources */,
+				E3AA75261E49E1D7000A75D6 /* FancyField.swift in Sources */,
+				E3AA750A1E498D91000A75D6 /* ViewController.swift in Sources */,
+				E37EA3F61E4C862A00768550 /* Post.swift in Sources */,
+				E3AA75241E49E022000A75D6 /* RoundBtn.swift in Sources */,
+				E3AA75081E498D90000A75D6 /* AppDelegate.swift in Sources */,
+				E37EA3F41E4C71D900768550 /* DataService.swift in Sources */,
+				E3AA752B1E4A3B94000A75D6 /* FeedVC.swift in Sources */,
+				E3AA751F1E49DB70000A75D6 /* FancyView.swift in Sources */,
+				E3AA75221E49DD04000A75D6 /* Constants.swift in Sources */,
+				E3AA75281E49E33D000A75D6 /* FancyBtn.swift in Sources */,
+				E37EA3F11E4C5CB900768550 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3AA750B1E498D91000A75D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3AA750C1E498D91000A75D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3AA75101E498D91000A75D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3AA75111E498D91000A75D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3AA75141E498D91000A75D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3AA75151E498D91000A75D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3AA75171E498D91000A75D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3958DCF2384F6B7EA850CB8 /* Pods-Nabs-social.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Nabs-social/Nabs-social.entitlements";
+				DEVELOPMENT_TEAM = 8K4S9QVHTG;
+				INFOPLIST_FILE = "Nabs-social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShikhaCorps.Nabs-social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E3AA75181E498D91000A75D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F939A347704DD06590A2166E /* Pods-Nabs-social.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Nabs-social/Nabs-social.entitlements";
+				DEVELOPMENT_TEAM = 8K4S9QVHTG;
+				INFOPLIST_FILE = "Nabs-social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShikhaCorps.Nabs-social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3AA74FF1E498D90000A75D6 /* Build configuration list for PBXProject "Nabs-social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3AA75141E498D91000A75D6 /* Debug */,
+				E3AA75151E498D91000A75D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3AA75161E498D91000A75D6 /* Build configuration list for PBXNativeTarget "Nabs-social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3AA75171E498D91000A75D6 /* Debug */,
+				E3AA75181E498D91000A75D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3AA74FC1E498D90000A75D6 /* Project object */;
+}
