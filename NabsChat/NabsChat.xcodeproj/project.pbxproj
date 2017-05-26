@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E37EA4041E4F04C600768550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37EA4031E4F04C600768550 /* AppDelegate.swift */; };
+		E37EA4061E4F04C600768550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37EA4051E4F04C600768550 /* ViewController.swift */; };
+		E37EA4091E4F04C700768550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37EA4071E4F04C700768550 /* Main.storyboard */; };
+		E37EA40B1E4F04C700768550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37EA40A1E4F04C700768550 /* Assets.xcassets */; };
+		E37EA40E1E4F04C700768550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37EA40C1E4F04C700768550 /* LaunchScreen.storyboard */; };
+		E37EA41A1E4F08F900768550 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = E37EA4171E4F08F900768550 /* AVCamPreviewView.m */; };
+		E37EA41B1E4F08F900768550 /* AVCamCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37EA4191E4F08F900768550 /* AVCamCameraViewController.m */; };
+		E37EA4201E4F097F00768550 /* AVCamPhotoCaptureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E37EA41F1E4F097F00768550 /* AVCamPhotoCaptureDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E37EA4001E4F04C600768550 /* NabsChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NabsChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37EA4031E4F04C600768550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E37EA4051E4F04C600768550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E37EA4081E4F04C700768550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E37EA40A1E4F04C700768550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E37EA40D1E4F04C700768550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E37EA40F1E4F04C700768550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37EA4151E4F08F700768550 /* NabsChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NabsChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		E37EA4161E4F08F900768550 /* AVCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPreviewView.h; sourceTree = "<group>"; };
+		E37EA4171E4F08F900768550 /* AVCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPreviewView.m; sourceTree = "<group>"; };
+		E37EA4181E4F08F900768550 /* AVCamCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamCameraViewController.h; sourceTree = "<group>"; };
+		E37EA4191E4F08F900768550 /* AVCamCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamCameraViewController.m; sourceTree = "<group>"; };
+		E37EA41E1E4F097F00768550 /* AVCamPhotoCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPhotoCaptureDelegate.h; sourceTree = "<group>"; };
+		E37EA41F1E4F097F00768550 /* AVCamPhotoCaptureDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPhotoCaptureDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E37EA3FD1E4F04C600768550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E37EA3F71E4F04C600768550 = {
+			isa = PBXGroup;
+			children = (
+				E37EA4021E4F04C600768550 /* NabsChat */,
+				E37EA4011E4F04C600768550 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E37EA4011E4F04C600768550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E37EA4001E4F04C600768550 /* NabsChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E37EA4021E4F04C600768550 /* NabsChat */ = {
+			isa = PBXGroup;
+			children = (
+				E37EA41D1E4F091900768550 /* Controller */,
+				E37EA41C1E4F090D00768550 /* View */,
+				E37EA4031E4F04C600768550 /* AppDelegate.swift */,
+				E37EA4071E4F04C700768550 /* Main.storyboard */,
+				E37EA40A1E4F04C700768550 /* Assets.xcassets */,
+				E37EA40C1E4F04C700768550 /* LaunchScreen.storyboard */,
+				E37EA40F1E4F04C700768550 /* Info.plist */,
+				E37EA4151E4F08F700768550 /* NabsChat-Bridging-Header.h */,
+			);
+			path = NabsChat;
+			sourceTree = "<group>";
+		};
+		E37EA41C1E4F090D00768550 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E37EA4161E4F08F900768550 /* AVCamPreviewView.h */,
+				E37EA4171E4F08F900768550 /* AVCamPreviewView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E37EA41D1E4F091900768550 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E37EA41E1E4F097F00768550 /* AVCamPhotoCaptureDelegate.h */,
+				E37EA41F1E4F097F00768550 /* AVCamPhotoCaptureDelegate.m */,
+				E37EA4181E4F08F900768550 /* AVCamCameraViewController.h */,
+				E37EA4191E4F08F900768550 /* AVCamCameraViewController.m */,
+				E37EA4051E4F04C600768550 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E37EA3FF1E4F04C600768550 /* NabsChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E37EA4121E4F04C700768550 /* Build configuration list for PBXNativeTarget "NabsChat" */;
+			buildPhases = (
+				E37EA3FC1E4F04C600768550 /* Sources */,
+				E37EA3FD1E4F04C600768550 /* Frameworks */,
+				E37EA3FE1E4F04C600768550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NabsChat;
+			productName = NabsChat;
+			productReference = E37EA4001E4F04C600768550 /* NabsChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E37EA3F81E4F04C600768550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nabendu Biswas";
+				TargetAttributes = {
+					E37EA3FF1E4F04C600768550 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E37EA3FB1E4F04C600768550 /* Build configuration list for PBXProject "NabsChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E37EA3F71E4F04C600768550;
+			productRefGroup = E37EA4011E4F04C600768550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E37EA3FF1E4F04C600768550 /* NabsChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E37EA3FE1E4F04C600768550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37EA40E1E4F04C700768550 /* LaunchScreen.storyboard in Resources */,
+				E37EA40B1E4F04C700768550 /* Assets.xcassets in Resources */,
+				E37EA4091E4F04C700768550 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E37EA3FC1E4F04C600768550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37EA4201E4F097F00768550 /* AVCamPhotoCaptureDelegate.m in Sources */,
+				E37EA4061E4F04C600768550 /* ViewController.swift in Sources */,
+				E37EA4041E4F04C600768550 /* AppDelegate.swift in Sources */,
+				E37EA41B1E4F08F900768550 /* AVCamCameraViewController.m in Sources */,
+				E37EA41A1E4F08F900768550 /* AVCamPreviewView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E37EA4071E4F04C700768550 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E37EA4081E4F04C700768550 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E37EA40C1E4F04C700768550 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E37EA40D1E4F04C700768550 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E37EA4101E4F04C700768550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E37EA4111E4F04C700768550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E37EA4131E4F04C700768550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = NabsChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShikhaCorps.NabsChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NabsChat/NabsChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E37EA4141E4F04C700768550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = NabsChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShikhaCorps.NabsChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NabsChat/NabsChat-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E37EA3FB1E4F04C600768550 /* Build configuration list for PBXProject "NabsChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37EA4101E4F04C700768550 /* Debug */,
+				E37EA4111E4F04C700768550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37EA4121E4F04C700768550 /* Build configuration list for PBXNativeTarget "NabsChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37EA4131E4F04C700768550 /* Debug */,
+				E37EA4141E4F04C700768550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E37EA3F81E4F04C600768550 /* Project object */;
+}
