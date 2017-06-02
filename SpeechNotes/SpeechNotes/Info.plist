@@ -2,8 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSSiriUsageDescription</key>
-	<string>Do you want to use Siri in your Workouts?</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow use the microphone</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Speech recognition will be used.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

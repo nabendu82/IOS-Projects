@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Intents
 
 class ViewController: UIViewController {
     
@@ -14,6 +15,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        INPreferences.requestSiriAuthorization { (status:INSiriAuthorizationStatus) in
+            print("The Siri status is: \(status.rawValue)")
+        }
         
     }
 

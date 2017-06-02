@@ -25,6 +25,7 @@
 		E37A57801ED7F2A600CE4DC7 /* WorkoutDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37A577E1ED7F2A600CE4DC7 /* WorkoutDetails.swift */; };
 		E37A57811ED7F2A600CE4DC7 /* WorkoutDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37A577E1ED7F2A600CE4DC7 /* WorkoutDetails.swift */; };
 		E37A57821ED7F2A600CE4DC7 /* WorkoutDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37A577E1ED7F2A600CE4DC7 /* WorkoutDetails.swift */; };
+		E3A363AA1EDBEDC000FEE182 /* IntendEndWorkoutHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A363A91EDBEDC000FEE182 /* IntendEndWorkoutHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 		E37A57731ED7F25900CE4DC7 /* HealthCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthCore.h; sourceTree = "<group>"; };
 		E37A57741ED7F25900CE4DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E37A577E1ED7F2A600CE4DC7 /* WorkoutDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDetails.swift; sourceTree = "<group>"; };
+		E3A363A91EDBEDC000FEE182 /* IntendEndWorkoutHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntendEndWorkoutHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			children = (
 				E37A574D1ED7F1CB00CE4DC7 /* IntentHandler.swift */,
 				E37A574F1ED7F1CB00CE4DC7 /* Info.plist */,
+				E3A363A91EDBEDC000FEE182 /* IntendEndWorkoutHandler.swift */,
 			);
 			path = HealthExtension;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A363AA1EDBEDC000FEE182 /* IntendEndWorkoutHandler.swift in Sources */,
 				E37A57801ED7F2A600CE4DC7 /* WorkoutDetails.swift in Sources */,
 				E37A574E1ED7F1CB00CE4DC7 /* IntentHandler.swift in Sources */,
 			);
@@ -716,6 +720,7 @@
 				E37A57451ED7F0CD00CE4DC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E37A57651ED7F1CB00CE4DC7 /* Build configuration list for PBXNativeTarget "HealthExtensionUI" */ = {
 			isa = XCConfigurationList;
@@ -724,6 +729,7 @@
 				E37A57671ED7F1CB00CE4DC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E37A57681ED7F1CB00CE4DC7 /* Build configuration list for PBXNativeTarget "HealthExtension" */ = {
 			isa = XCConfigurationList;
@@ -732,6 +738,7 @@
 				E37A576A1ED7F1CB00CE4DC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E37A577A1ED7F25900CE4DC7 /* Build configuration list for PBXNativeTarget "HealthCore" */ = {
 			isa = XCConfigurationList;
@@ -740,6 +747,7 @@
 				E37A577C1ED7F25900CE4DC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

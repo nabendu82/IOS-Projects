@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SpeechNotes" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="O1D-QO-kUS">
+                                <rect key="frame" x="16" y="50" width="343" height="251"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tG9-A4-sVr">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="158"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdp-bw-J3o">
+                                        <rect key="frame" x="102" y="166" width="139" height="18.5"/>
+                                        <state key="normal" title="Recognize From File"/>
+                                        <connections>
+                                            <action selector="speechRecognizerFromFile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s5s-sU-jbj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0l-2e-7Ph">
+                                        <rect key="frame" x="0.0" y="192.5" width="343" height="30"/>
+                                        <state key="normal" title="Recognize From Mic"/>
+                                        <connections>
+                                            <action selector="speechRecognizerFromMic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dpS-de-4Fo"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCr-mO-DNz">
+                                        <rect key="frame" x="0.0" y="230.5" width="343" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="WCr-mO-DNz" secondAttribute="trailing" id="H1q-qm-3Jr"/>
+                                    <constraint firstAttribute="trailing" secondItem="tG9-A4-sVr" secondAttribute="trailing" id="Iah-Ji-gdD"/>
+                                    <constraint firstAttribute="trailing" secondItem="e0l-2e-7Ph" secondAttribute="trailing" id="J9f-fO-bZh"/>
+                                    <constraint firstItem="WCr-mO-DNz" firstAttribute="leading" secondItem="O1D-QO-kUS" secondAttribute="leading" id="P1f-jA-qWQ"/>
+                                    <constraint firstItem="e0l-2e-7Ph" firstAttribute="leading" secondItem="O1D-QO-kUS" secondAttribute="leading" id="awi-mM-G82"/>
+                                    <constraint firstItem="tG9-A4-sVr" firstAttribute="leading" secondItem="O1D-QO-kUS" secondAttribute="leading" id="jhi-gv-wVW"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="O1D-QO-kUS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="50" id="180-U5-c3m"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O1D-QO-kUS" secondAttribute="trailing" id="7uq-ag-15A"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="O1D-QO-kUS" secondAttribute="bottom" constant="366" id="Ypq-K1-fzI"/>
+                            <constraint firstItem="O1D-QO-kUS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="oxP-N2-xid"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="speechAlertLabel" destination="WCr-mO-DNz" id="gU1-aV-Icw"/>
+                        <outlet property="speechFromFileButton" destination="rdp-bw-J3o" id="Avl-9T-6yd"/>
+                        <outlet property="speechFromMicButton" destination="e0l-2e-7Ph" id="3yJ-44-Arc"/>
+                        <outlet property="textView" destination="tG9-A4-sVr" id="TcC-h4-oFZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="114.69265367316342"/>
+        </scene>
+    </scenes>
+</document>
